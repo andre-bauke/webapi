@@ -1,0 +1,26 @@
+{
+  "name": "webapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test: watch": "jest --watch",
+    "start": "npx nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1"
+  },
+  "devDependencies": {
+    "@eslint/json": "^0.12.0",
+    "jest": "^30.0.0"
+  }
+}
